@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className='todo-App'>
       <h1 className='heading'>Todo App!</h1>
       <AddTask onAddTask={handleAddTask} />
       <TaskList
@@ -75,7 +75,7 @@ function App() {
         onChangeTask={handleChangeTask}
         onDeleteTask={handleDeleteTask}
       />
-    </>
+    </div>
   );
 }
 export default App;
