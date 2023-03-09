@@ -20,3 +20,8 @@ ul{
 .heading{
   text-align: center;
 }
+.todoApp{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
