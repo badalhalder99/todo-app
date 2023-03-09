@@ -21,7 +21,6 @@ ul{
   text-align: center;
 }
 .todoApp{
- display: flex;
- align-items: center;
- justify-content: center;
+ display: block;
+ margin: 0 auto;
 }
